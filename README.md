@@ -65,7 +65,6 @@ cp .env.example .env
 
 # Edit .env and fill in your actual values
 # Especially important: OPENAI_API_KEY
-# For SECRET_KEY, you can generate one with: openssl rand -hex 32
 ```
 
 **Note:** The `.env` file is not committed to git (it's in `.gitignore`). Each developer needs to create their own `.env` file.
